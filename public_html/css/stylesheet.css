@@ -1,0 +1,195 @@
+/*
+Author : Maksim Ivashkevich
+Date: 2020/07/12 YYYY-MM-DD
+Bounty Hunter OSRS Event Leaderboard Styling
+*/
+
+html{
+    background-image: url("../images/bhbackground.png");
+    background-color: black;
+}
+
+h1{
+    font-family: 'runescape';
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+}
+
+h2{
+    font-family: 'runescape';
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    margin-bottom: -5px;
+}
+
+table{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #37394a;
+    color: white;
+    font-family: 'runescape';
+    font-size: 20px;
+}
+
+.spaced{
+    color: yellow;
+    padding-right: 20px;
+}
+
+.gold > th{
+    color: #FFD700;
+}
+
+.silver > th{
+    color: #C0C0C0;
+}
+
+.bronze > th{
+    color: #CD7F32;
+}
+
+th{
+    padding: 25px;
+    border-bottom:1px solid black;
+}
+
+#date{
+}
+
+#rules, #prizepool{
+    font-family: 'runescape';
+    color: yellow;
+    font-size: 30px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#first{
+    color: #FFD700;
+}
+
+#second{
+    color: #C0C0C0;
+}
+
+#third{
+    color: #CD7F32;
+}
+
+#nonpodium, #bonus, #message{
+    font-family: 'runescape';
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#bonus{
+    color: #FF4500;
+    font-size: 30px;
+}
+
+li{
+    margin: 15px 0;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#schedule{
+    font-family: 'runescape';
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+}
+
+#weekThree{
+    color: #FF4500;
+}
+
+#prizes{
+    font-family: 'runescape';
+    font-size: 60px;
+    color: yellow;
+    text-align: center;
+}
+
+#ags, #eternals, #fury, #anguish{
+    font-family: 'runescape';
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#ags{
+    padding-top: 1%;
+}
+
+#anguish{
+    padding-bottom: 0;
+}
+
+#coins{
+    width: 3%;
+    display: inline;
+}
+
+#agsPic, #eternalsPic, #furyPic, #anguishPic{
+    width: 2%;
+    display: inline;
+    vertical-align: middle;
+}
+
+#furyPic{
+    width: 1%;
+}
+
+#container{
+    text-align: center;
+}
+
+#bottomimage{
+    padding-bottom: 50px;
+}
+
+.gpValue{
+    color: yellow;
+}
+
+.UltraRare{
+    color: red;
+    /*color: #9F261E*/
+}
+
+.rare{
+    color: orange;
+    /*color: #B55E0C*/
+}
+
+.uncommon{
+    color: yellow;
+    /*color: #A48900*/
+}
+
+#navbar{
+    font-family: 'runescape';
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#navbar > a:not(:last-child){
+    padding-right: 2%;
+}
